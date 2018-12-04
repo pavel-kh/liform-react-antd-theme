@@ -5,7 +5,7 @@ import DateWidget from "./DateWidget";
 import DateTimeWidget from "./DateTimeWidget";
 import ArrayWidget from "./ArrayWidget";
 import ChoiceWidget from "./ChoiceWidget";
-
+import NumberWidget from "./NumberWidget";
 
 export default {
   ...DefaultTheme,
@@ -14,7 +14,9 @@ export default {
   date: DateWidget,
   datetime: DateTimeWidget,
   array: ArrayWidget,
-  choice: ChoiceWidget
+  choice: ChoiceWidget,
+  number: NumberWidget,
+
 
 
 };
