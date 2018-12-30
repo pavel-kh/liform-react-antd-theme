@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import renderField from "liform-react";
+import { renderField } from "liform-react";
 import { FieldArray } from "redux-form";
 import { times as _times } from "lodash";
 import ChoiceWidget from "./ChoiceWidget";
