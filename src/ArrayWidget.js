@@ -18,12 +18,12 @@ const renderArrayFields = (
   swap
 ) => {
   const prefix = fieldName + ".";
-  if (count) {
+  if (count) {    
     return _times(count, idx => {
       return (
         <div key={idx}>
           <Row type="flex" justify="space-between">
-            <Col offset="20">
+            <Col offset={20}>
 
 
               {idx !== count - 1 && count > 1 ? (
