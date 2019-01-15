@@ -1,6 +1,6 @@
 {
   "name": "liform-react-antd-theme",
-  "version": "0.0.5",
+  "version": "0.0.9",
   "description": "Ant Design theme for liform-react library",
   "main": "./lib/index.js",
   "scripts": {
