@@ -7,6 +7,8 @@ import ArrayWidget from "./ArrayWidget";
 import ChoiceWidget from "./ChoiceWidget";
 import NumberWidget from "./NumberWidget";
 
+
+
 export default {
   ...DefaultTheme,
   object: ObjectWidget,
@@ -16,7 +18,6 @@ export default {
   array: ArrayWidget,
   choice: ChoiceWidget,
   number: NumberWidget,
-
-
+  integer: NumberWidget,
 
 };
