@@ -15,7 +15,6 @@ export class FieldArraySchemaValidation extends Component {
     }
 
     validate(value) {
-        debugger;
         const schema = {...this.props.schema};
         delete schema.items;
         const valid = this.ajv.validate(schema, value);
