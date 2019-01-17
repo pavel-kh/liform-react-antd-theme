@@ -1,6 +1,5 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { Field } from "redux-form";
 import { ASelect } from "./ReduxFormAntd";
 import { Select } from "antd";
 import { FieldSchemaValidation } from "./FieldSchemaValidation";
