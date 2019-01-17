@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { Field } from "redux-form";
+import { FieldSchemaValidation } from "./FieldSchemaValidation";
 import { zipObject as _zipObject, map as _map } from "lodash";
 import { ASelect } from "./ReduxFormAntd";
 import { Select } from "antd";
@@ -22,7 +22,7 @@ const renderOptions = field => {
 
 const ChoiceWidget = props => {
   return (
-    <Field
+    <FieldSchemaValidation
       component={ASelect}
       label={props.label}
       name={props.fieldName}
@@ -36,7 +36,7 @@ const ChoiceWidget = props => {
       allowClear ={!props.required && !props.multiple}
     >
       {renderOptions(props)}
-    </Field>
+    </FieldSchemaValidation>
   );
 };
 

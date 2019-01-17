@@ -1,12 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { renderField } from "liform-react";
-import { FieldArray } from "redux-form";
 import { times as _times } from "lodash";
 import ChoiceWidget from "./ChoiceWidget";
 import classNames from "classnames";
 import { Button, Row, Col } from "antd";
 import { button } from "./styles";
+import { FieldArraySchemaValidation } from "./FieldArraySchemaValidation";
 
 const renderArrayFields = (
   count,
@@ -110,7 +110,7 @@ const renderInput = field => {
 
 const CollectionWidget = props => {
   return (
-    <FieldArray
+    <FieldArraySchemaValidation
       component={renderInput}
       label={props.label}
       name={props.fieldName}

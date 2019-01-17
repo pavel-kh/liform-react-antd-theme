@@ -1,12 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { Field } from "redux-form";
+import { FieldSchemaValidation } from "./FieldSchemaValidation";
 
 
 
 const BaseInputWidget = props => {
   return (
-    <Field
+    <FieldSchemaValidation
       component={props.component}
       label={props.label}
       name={props.fieldName}
@@ -16,6 +16,8 @@ const BaseInputWidget = props => {
       description={props.schema.description}
       type={props.type}
       normalize={props.normalizer}
+      schema={props.schema}
+      
     />
   );
 };
