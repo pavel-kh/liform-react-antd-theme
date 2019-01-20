@@ -1,7 +1,8 @@
 import React from "react";
 import { ADatePicker } from "./ReduxFormAntd";
 import moment from "moment";
-import { FieldSchemaValidation } from "./FieldSchemaValidation";
+import { Field } from "redux-form";
+
 
 const dateTimeFormat = "YYYY-MM-DDTHH:mm:ssZ";
 const inputFormat = "YYYY-MM-DD HH:mm:ss";
@@ -34,7 +35,7 @@ const toInputFormat = (datetime) => {
 const DateTimeWidget = props => {
   return (
 
-    <FieldSchemaValidation
+    <Field
       component={ADateTimePicker}
       label={props.label}
       format={toInputFormat}

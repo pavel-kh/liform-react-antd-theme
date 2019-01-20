@@ -6,8 +6,7 @@ import ChoiceWidget from "./ChoiceWidget";
 import classNames from "classnames";
 import { Button, Row, Col } from "antd";
 import { button } from "./styles";
-import { FieldArraySchemaValidation } from "./FieldArraySchemaValidation";
-
+import { FieldArray } from "redux-form";
 const renderArrayFields = (
   count,
   schema,
@@ -18,7 +17,7 @@ const renderArrayFields = (
   swap
 ) => {
   const prefix = fieldName + ".";
-  if (count) {    
+  if (count) {
     return _times(count, idx => {
       return (
         <div key={idx}>
@@ -110,7 +109,7 @@ const renderInput = field => {
 
 const CollectionWidget = props => {
   return (
-    <FieldArraySchemaValidation
+    <FieldArray
       component={renderInput}
       label={props.label}
       name={props.fieldName}

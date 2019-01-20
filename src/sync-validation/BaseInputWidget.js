@@ -1,12 +1,11 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { FieldSchemaValidation } from "./FieldSchemaValidation";
-
+import { Field } from "redux-form";
 
 
 const BaseInputWidget = props => {
   return (
-    <FieldSchemaValidation
+    <Field
       component={props.component}
       label={props.label}
       name={props.fieldName}

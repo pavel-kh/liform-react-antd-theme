@@ -2,12 +2,13 @@ import React from "react";
 import PropTypes from "prop-types";
 import { ASelect } from "./ReduxFormAntd";
 import { Select } from "antd";
-import { FieldSchemaValidation } from "./FieldSchemaValidation";
+import { Field } from "redux-form";
+
 const { Option } = Select;
 
 const BooleanWidget = props => {
     return (
-        <FieldSchemaValidation
+        <Field
             component={ASelect}
             label={props.label}
             name={props.fieldName}
@@ -45,7 +46,7 @@ const BooleanWidget = props => {
             <Option key={"false"}>
                 false
             </Option>
-        </FieldSchemaValidation>
+        </Field>
     );
 };
 
