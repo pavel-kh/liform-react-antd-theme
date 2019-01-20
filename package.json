@@ -6,6 +6,7 @@
   "scripts": {
     "build": "npm run build:lib",
     "build:lib": "babel src --out-dir lib",
+    "install": "npm run build",
     "lint": "eslint src",
     "test": "jest",
     "test:cov": "cross-env NODE_ENV=test nyc --reporter=lcov --reporter=text npm test"
