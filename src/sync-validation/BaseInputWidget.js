@@ -3,7 +3,6 @@ import PropTypes from "prop-types";
 import { Field } from "redux-form";
 
 
-
 const BaseInputWidget = props => {
   return (
     <Field
@@ -16,6 +15,8 @@ const BaseInputWidget = props => {
       description={props.schema.description}
       type={props.type}
       normalize={props.normalizer}
+      schema={props.schema}
+      
     />
   );
 };

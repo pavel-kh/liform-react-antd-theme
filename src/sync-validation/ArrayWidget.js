@@ -1,13 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { renderField } from "liform-react";
-import { FieldArray } from "redux-form";
 import { times as _times } from "lodash";
 import ChoiceWidget from "./ChoiceWidget";
 import classNames from "classnames";
 import { Button, Row, Col } from "antd";
 import { button } from "./styles";
-
+import { FieldArray } from "redux-form";
 const renderArrayFields = (
   count,
   schema,
@@ -18,7 +17,7 @@ const renderArrayFields = (
   swap
 ) => {
   const prefix = fieldName + ".";
-  if (count) {    
+  if (count) {
     return _times(count, idx => {
       return (
         <div key={idx}>

@@ -1,8 +1,9 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { Field } from "redux-form";
 import { ASelect } from "./ReduxFormAntd";
 import { Select } from "antd";
+import { Field } from "redux-form";
+
 const { Option } = Select;
 
 const BooleanWidget = props => {
