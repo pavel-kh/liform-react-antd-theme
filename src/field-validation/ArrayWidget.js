@@ -6,7 +6,7 @@ import ChoiceWidget from "./ChoiceWidget";
 import classNames from "classnames";
 import { Button, Row, Col } from "antd";
 import { button } from "./styles";
-import { fieldValidation } from "liform-react";
+import { fieldValidation } from "pavelkh-liform-react";
 const { FieldArrayValidation } = fieldValidation;
 const renderArrayFields = (
   count,

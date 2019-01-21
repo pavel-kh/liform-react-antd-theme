@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import { ASelect } from "./ReduxFormAntd";
 import { Select } from "antd";
-import { fieldValidation } from "liform-react";
+import { fieldValidation } from "pavelkh-liform-react";
 const { FieldValidation } = fieldValidation;
 const { Option } = Select;
 

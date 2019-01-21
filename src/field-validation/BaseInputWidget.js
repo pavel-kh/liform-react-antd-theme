@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { fieldValidation } from "liform-react";
+import { fieldValidation } from "pavelkh-liform-react";
 const { FieldValidation } = fieldValidation;
 
 

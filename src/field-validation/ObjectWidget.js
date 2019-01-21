@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { renderFields } from "liform-react";
+import { renderFields } from "pavelkh-liform-react";
 
 const Widget = props => {
   return (

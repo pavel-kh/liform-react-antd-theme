@@ -1,7 +1,7 @@
 import React from "react";
 import { ADatePicker } from "./ReduxFormAntd";
 import moment from "moment";
-import { fieldValidation } from "liform-react";
+import { fieldValidation } from "pavelkh-liform-react";
 const { FieldValidation } = fieldValidation;
 
 const dateTimeFormat = "YYYY-MM-DDTHH:mm:ssZ";

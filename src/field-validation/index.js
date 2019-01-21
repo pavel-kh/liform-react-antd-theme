@@ -1,4 +1,4 @@
-import { DefaultThemeFieldValidation } from "liform-react";
+import { DefaultThemeFieldValidation } from "pavelkh-liform-react";
 import StringWidget from "./StringWidget";
 import ObjectWidget from "./ObjectWidget";
 import DateWidget from "./DateWidget";

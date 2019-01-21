@@ -1,6 +1,7 @@
 node_modules
 npm-debug.log
 es
+lib
 .DS_Store
 yarn.lock
 .nyc_output/
