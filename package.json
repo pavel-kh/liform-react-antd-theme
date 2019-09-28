@@ -1,6 +1,6 @@
 {
   "name": "liform-react-antd-theme",
-  "version": "0.0.13",
+  "version": "0.1.7",
   "description": "Ant Design theme for liform-react library",
   "main": "./lib/index.js",
   "scripts": {
@@ -59,14 +59,14 @@
     "deepmerge": "^2.0.1",
     "jest": "^21.2.1",
     "liform-react": "0.9.0",
-    "pavelkh-liform-react": "0.10.2",
+    "pavelkh-liform-react": "0.10.4",
     "moment": "^2.22.2",
     "prop-types": "^15.5.10",
-    "react": "^16.6.1",
-    "react-dom": "^16.6.1",
-    "react-redux": "^5.0.6",
-    "redux": "^3.5.2",
-    "redux-form": "^7.2.0"
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-redux": "^7.1.0",
+    "redux": "^4.0.1",
+    "redux-form": "^8.2.4"
   },
   "jest": {
     "verbose": true,

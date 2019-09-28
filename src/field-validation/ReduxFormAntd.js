@@ -44,12 +44,13 @@ const formItemLayout = {
             </Form.Item>
           );
   };
-        
+
+const AutoResizeTextArea =( props) => <TextArea {...props} autosize={true}>{props.children}</TextArea>;
 
 export const AInput = makeField(Input);
 export const ARadioGroup = makeField(RadioGroup);
 export const ASelect = makeField(Select);
 export const ACheckbox = makeField(Checkbox);
-export const ATextarea = makeField(TextArea);
+export const ATextarea = makeField(AutoResizeTextArea);
 export const ARangePicker = makeField(RangePicker);
 export const ADatePicker = makeField(DatePicker);

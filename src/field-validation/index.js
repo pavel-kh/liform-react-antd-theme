@@ -7,6 +7,7 @@ import ArrayWidget from "./ArrayWidget";
 import ChoiceWidget from "./ChoiceWidget";
 import NumberWidget from "./NumberWidget";
 import BooleanWidget from "./BooleanWidget";
+import TextareaWidget from "./TextareaWidget";
 
 
 
@@ -20,6 +21,7 @@ export default {
   choice: ChoiceWidget,
   number: NumberWidget,
   integer: NumberWidget,
-  boolean: BooleanWidget
+  boolean: BooleanWidget,
+  textarea: TextareaWidget
 
 };
